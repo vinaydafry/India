@@ -12,30 +12,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>India</title>
   </head>
-  <body style= "background-color:#419d78; font-family: arial; padding: 25px">
+  <body style= "background-color:#26c6da ; font-family: arial; padding: 25px">
     <nav>
       <div class="nav-wrapper black">
         <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="#"><i class="material-icons">search</i></a></li>
-          <li><a href="#"><i class="material-icons left">refresh</i></a></li>
           <li><a href="https://www.india.gov.in/topics/travel-tourism" class="waves-effect waves-light btn">Travel & Tourism</a></li>
-          <a href="https://www.india.gov.in/topics/transport" class="waves-effect waves-light btn">Transport</a></li>
-          <a href="https://www.india.gov.in/topics/governance-administration" class="waves-effect waves-light btn">Governance & Administration</a></li>
+          <li><a href="https://www.india.gov.in/topics/transport" class="waves-effect waves-light btn">Transportation</a></li>
+          <li><a href="https://www.india.gov.in/topics/governance-administration" class="waves-effect waves-light btn">Governance & Administration</a></li>
+          <li><a href="https://www.india.gov.in/topics/art-culture" class="waves-effect waves-light btn">Art & Culture</a></li>
+          <li><a href="https://www.india.gov.in/topics/defence" class="waves-effect waves-light btn">Military & Defence</a></li>
         </ul>
       </div>
     </nav>
     <div class="center-align" style="color: #1f363d">
-      <h1>My Favorite Place to go is India</h1>
-      <h2>Vinay Yerramsetti</h2>
+      <h1>India:</h1>
+      <h2>My favorite place to travel</h1>
+      <h4>Vinay Yerramsetti</h4>
     </div>
-    <img src="india-flag.png" style="width:30%; height:30%">
-    <p>
-      <br><br>When you go to India there are many things to do there.
-    </p>
-    <p>
-      India is a great country to visit because you can visit the great cities, learn about all the cultures and religions, and eat all the food. When you go to India you should vist the major cities and the landmarks there. You can learn about the culture in each city and eat the different foods.You can visit the beautiful temples and learn about Hinduism, Buddhism and other religions in India.
-      The landmarks have many decents from different countries and religions. For example, the Taj Mahal has a mughal design which is also an Islamic design made for the wife of the Mughal emperor Shah Jahan. The food for the most part will depend on where you are in India. Indians love spicy food and if your a visitor of the country be prepared to eat very spicy food.
-    <p>
+    <div class="row">
+      <div class="col s6 offset-s3">
+        <div class=" card cyan lighten-2">
+          <div class="card-image">
+            <img src="india-flag.png">
+            </div>
+        </div>
+      </div>
+    </div>
+  <br><br>
+      <div class="row">
+        <div class="col s6 offset-s3">
+          <div class=" card cyan lighten-2">
+            <div class="card-title center">
+              Introduction
+            </div>
+            <div class="card-content">
+              When you go to India there are many things to do there. There is way more thing to do thjey you think there are.<br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s6 offset-s3">
+          <div class=" card cyan lighten-2">
+            <div class="card-image">
+              <img src="Indian city of Assi.jpg">
+              Beautiful Holy City of Assi, India
+            </div>
+            <div class="card-content">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div
+    <div class="row">
+        <div class="col s6 offset-s3">
+          <div class=" card cyan lighten-2">
+            <div class="card-title center">
+              What can I do in India?
+            </div>
+            <div class="card-content">
+              India is a great country to visit because you can visit the great cities, learn about all the cultures and religions, and eat all the food. When you go to India you should vist the major cities and the landmarks there. You can learn about the culture in each city and eat the different foods.You can visit the beautiful temples and learn about Hinduism, Buddhism and other religions in India.
+              The landmarks have many decents from different countries and religions. The food makes you feel alive with the unique spices. The cultures and religions want to make you learn more about them. India is full of thing to do!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s6 offset-s3">
+        <div class=" card cyan lighten-2">
+          <div class="card-title center">
+            Landmarks
+          </div>
+          <div class="card-content">
+            India's landmarks have great diversity and are influenced by many coutries. For example, The Taj Mahal has a Mogul design which is an Islamic design. Many landmarks are influenced by India's religions, mainly Hinduism.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+   <div class="col s6 offset-s3">
+    <div class=" card cyan lighten-2">
+     <div class="card-image">
+      <img src="Taj Mahal.jpg">
+
+        <script>
+        function loadSite(){
+          if(document.cookie.length > -1){
+            document.getElementById("welcome").innerHTML = "Welcome " + document.cookie + "!!!";
+          }
+          else{
+            document.getElementById("welcome").innerHTML = "";
+          }
+        }
+        function submitForm(form) {
+          var name = form.inputbox.value;
+          document.cookie = name;
+          document.getElementById("welcome").innerHTML = "Welcome " + name + "!!!";
+          location.reload();
+        }
+      </script>
+
+ </p>
+
+
 
 </body>
 </html>
